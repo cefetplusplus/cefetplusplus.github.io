@@ -1,0 +1,19 @@
+<div class="card bg-light">
+    <div class="card-body">
+        <h5 class="card-title">Notícias</h5>
+        <ul class="list-group list-group-flush bg-light pb-3">
+            {% for post in site.posts limit:5 %}
+            <li class="list-group-item bg-light px-0">
+                <div>{{ post.title }}</div>
+                <div>
+                    <span class="text-muted">{{ post.date | date: '%d de %B de %Y' }} - </span>
+                    <a href="{{post.url }}">saiba mais</a>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+        <p class="text-end m-0 p-0">
+            <a href="{{ '/news' | relative_url }}">Ver todas as notícias...</a>
+        </p>
+    </div>
+</div>

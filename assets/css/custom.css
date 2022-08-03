@@ -1,0 +1,37 @@
+/* **************************************************************************
+ * Google fonts
+ * ************************************************************************** */
+
+ @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic');
+ @import url('https://fonts.googleapis.com/css?family=Raleway:400,300,700');
+
+
+ /* **************************************************************************
+ * General
+ * ************************************************************************** */
+
+body {
+    font-family: "Raleway";
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+ /* **************************************************************************
+ * Team
+ * ************************************************************************** */
+
+.team-member p {
+    font-size: small;
+}
+
+.team-member img {
+    object-fit: cover;
+    object-position: center;
+    width: 158px;
+    max-width: 158px;
+    height: 158px;
+    max-height: 158px;
+}
