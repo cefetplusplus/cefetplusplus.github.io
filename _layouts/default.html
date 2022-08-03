@@ -13,14 +13,22 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-    <title>CEFET++ · Equipe de Maratonas de Programação do CEFET-MG (Divinópolis)</title>
+    <title>CEFET-MG :: Equipe CEFET++</title>
 </head>
 
 <body>
 
     <nav id="navbar" class="navbar sticky-top navbar-expand-lg navbar-light bg-light border-bottom shadow-sm">
         <div class="container">
-            <a class="navbar-brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            <a class="navbar-brand logo" href="{{ '/' | relative_url }}">
+                <div class="d-inline">
+                    <div class="logo-text-primary">
+                        <img class="" src="{{ '/assets/images/logo.png' | relative_url }}" height="30" class="d-inline-block align-top" alt="CEFET++ logo">
+                        CEFET++
+                    </div>
+                    <div class="logo-text-secondary">Turning coffee into code since 2022!</div>
+                </div>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,6 +45,9 @@
                     </li>
                     {% endif %}
                 {% endfor %}
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="{{ site.github_url }}"><i class="bi bi-github"></i></a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -60,14 +71,14 @@
                     </p>
                 </div>
                 <div class="col-12 col-lg-6 mb-5">
-                    <iframe width="100%" height="300" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.0779217640516!2d-44.91223348449484!3d-20.17248085110604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa0a437069d42b1%3A0x1a8f8a6323c854ff!2sCEFET-MG%2FCampus%20Divin%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1659485966843!5m2!1spt-BR!2sbr" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <iframe width="100%" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3745.0779217640516!2d-44.91223348449481!3d-20.17248085110604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa0a437069d42b1%3A0x1a8f8a6323c854ff!2sCEFET-MG%2FCampus%20Divin%C3%B3polis!5e0!3m2!1spt-BR!2sbr!4v1659559770660!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
             <div class="d-flex justify-content-between border-top text-muted">
                 <div>
                     <p class="fs-6">
                         &copy; 2022 CEFET++. Todos os direitos reservados. <br>
-                        Somos parte do <a href="https://www.cefetmg.br/">Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG)</a>
+                        Somos parte do <a href="https://www.cefetmg.br/">CEFET-MG</a>.
                     </p>
                 </div>
                 <ul class="list-unstyled d-flex fs-4">
@@ -78,7 +89,6 @@
     </footer>
 
     <script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
 
 </body>
