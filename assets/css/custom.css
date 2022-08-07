@@ -76,7 +76,7 @@ body {
     z-index: 100;
 }
 
-.organization-logo img {
+.organization-logo {
     object-fit: scale-down;
     object-position: center;
     width: 158px;

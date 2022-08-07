@@ -36,10 +36,10 @@ Após isso, os alunos que participaram da competição decidiram organizar a pri
 
 
 <div class="row justify-content-around mt-5 mb-4">
-    <div class="col-12 col-lg-4 text-center organization-logo mb-4">
-        <a href="$"><img src="{{ '/assets/images/maratona-sbc.jpg' | relative_url }}" /></a>
+    <div class="col-12 col-lg-4 text-center mb-4">
+        <a href="https://maratona.sbc.org.br/"><img src="{{ '/assets/images/maratona-sbc.jpg' | relative_url }}" class="organization-logo" /></a>
     </div>
-    <div class="col-12 col-lg-4 text-center organization-logo">
-        <a href="$"><img src="{{ '/assets/images/icpc.png' | relative_url }}" /></a>
+    <div class="col-12 col-lg-4 text-center ">
+        <a href="https://icpc.global/"><img src="{{ '/assets/images/icpc.png' | relative_url }}" class="organization-logo" /></a>
     </div>
 </div>
