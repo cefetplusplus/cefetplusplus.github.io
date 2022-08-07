@@ -1,0 +1,35 @@
+---
+layout: page
+permalink: /contests/
+---
+
+
+<h3>Participação em Competições</h3>
+<div class="row my-5">
+    <div class="col-12">
+        <div class="list-group">
+            {% assign contests = site.data.contests  | sort: "date" | reverse %}
+            {% for contest in contests %}
+            <div class="list-group-item">
+                <h4>{{ contest.name }}</h4>
+                <small class="text-muted">
+                    <i class="bi bi-geo-alt"></i> {{ contest.location }} 
+                    <i class="bi bi-calendar2-event ms-3"></i> {{ contest.date | date: '%d/%d/%Y' }}
+                </small>
+                <p></p>
+                {% for team in contest.teams %}
+                <p>
+                    Equipe [CEFET++] {{ team.name }}<br />
+                    <small class="text-muted">
+                    <i class="bi bi-people"></i> {{ team.students | sort | array_to_sentence_string: "" }}<br />
+                    {% for prize in team.prizes %}
+                        <i class="bi bi-trophy"></i> {{ prize }}<br />
+                    {% endfor %}
+                    </small>
+                </p>
+                {% endfor %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

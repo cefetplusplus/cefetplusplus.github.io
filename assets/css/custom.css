@@ -4,25 +4,30 @@
 
  @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic');
  @import url('https://fonts.googleapis.com/css?family=Raleway:400,300,700');
- @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400,700&display=swap');
 
 
- /* **************************************************************************
- * General
- * ************************************************************************** */
+/* **************************************************************************
+* General
+* ************************************************************************** */
 
 body {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     color: #555;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
+.text-justify {
+    text-align: justify;
+}
 
- /* **************************************************************************
- * Team
- * ************************************************************************** */
+
+
+/* **************************************************************************
+* Team page
+* ************************************************************************** */
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -69,6 +74,14 @@ body {
     top: 0px;
     left: 0px;
     z-index: 100;
+}
+
+.organization-logo img {
+    object-fit: scale-down;
+    object-position: center;
+    width: 158px;
+    max-width: 158px;
+    max-height: 158px;
 }
 
 .team-member p {

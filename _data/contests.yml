@@ -1,0 +1,17 @@
+- name: "IX Maratona Mineira de Programação"
+  date: "2022-05-28"
+  location: "Timóteo, MG, Brasil"
+  teams:
+    - name: "Technomancers"
+      prizes:
+        - "Melhor equipe estreante"
+      students:
+        - "Gabriel de Souza Rosa"
+        - "Yuri Dimitre Dias de Faria"
+        - "Vitor Martins Soares"
+    - name: "P versus NP"
+      prizes:
+      students:
+        - "Gabriel Couto Assis"
+        - "Leonardo de Oliveira Campos"
+        - "Pedro Henrique Rodrigues Pereira"
