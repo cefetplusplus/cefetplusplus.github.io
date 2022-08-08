@@ -1,10 +1,11 @@
 ---
-layout: home
+layout: default
 permalink: /
 ---
 
 
 <div class="row">
+
     <div class="col-12 col-lg-8 h-100">
         <div class="home-banner text-center mb-4">
             <img class="img-fluid mb-3 w-100 h-100 home-banner-bg" src="{{ '/assets/images/banner.jpg' | relative_url }}">
@@ -16,10 +17,13 @@ permalink: /
             Computação do CEFET-MG (Campus Divinópolis). O objetivo desse projeto é dar suporte aos alunos que 
             compõem a equipe na preparação para as competições e no aprimoramento de suas habilidades com 
             técnicas de programação avançada e algoritmos eficientes, essenciais para a solução dos problemas 
-            propostos nas competições
+            propostos nas competições.
         </p>
     </div>
+
+    <!-- Notícias -->
     <div class="col-12 col-lg-4">
         {% include news.html %}
     </div>
+
 </div>

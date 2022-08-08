@@ -6,7 +6,9 @@
             <li class="list-group-item bg-light px-0">
                 <div>{{ post.title }}</div>
                 <div>
-                    <span class="text-muted">{{ post.date | date: '%d/%m/%Y' }} - </span>
+                    <span class="text-muted">
+                        <i class="bi bi-calendar2-check"></i> {{ post.date | date: '%d/%m/%Y' }}
+                    </span> - 
                     <a href="{{post.url }}">saiba mais</a>
                 </div>
             </li>

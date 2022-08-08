@@ -1,21 +1,26 @@
 ---
-layout: page
-title: Notícias
+layout: default
 ---
 
+
+<div class="row mb-4">
+    <div class="col-12">
+        <h2>Notícias</h2>
+    </div>
+</div>
 <div class="row">
     {% for post in paginator.posts %}
     <div class="col-12 mb-3">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">{{ post.title }}</h4>
-                <h6 class="card-subtitle mb-2 text-muted">
-                    <i class="bi bi-calendar2-check me-1"></i> {{ post.date | date: '%d/%m/%Y' }}
-                </h6>
-                <p class="card-text mt-2">
+                <h4 class="card-title mb-0">{{ post.title }}</h4>
+                <small class="card-subtitle mb-2 text-muted">
+                    <i class="bi bi-calendar2-check me-1"></i> Publicado em {{ post.date | date: '%d/%m/%Y' }}
+                </small>
+                <p class="card-text mt-3 mb-1">
                     {{ post.headline }}
                 </p>
-                <a class="card-link" href="{{ post.url }}">Leia mais</a>
+                <a class="card-link" href="{{ post.url }}">Saiba mais...</a>
             </div>
         </div>
     </div>

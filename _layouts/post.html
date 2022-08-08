@@ -3,11 +3,17 @@ layout: default
 ---
 
 
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <h5>{{ page.title }}</h5>
-            <h6 class="text-muted mb-4">{{ page.date | date: '%d/%d/%Y' }}</h6>
+<div class="row mb-4">
+    <div class="col-12">
+        <h2 class="mb-1">{{ page.title }}</h2>
+        <small class="text-muted">
+            <i class="bi bi-calendar2-check"></i> Publicado em {{ page.date | date: '%d/%d/%Y' }}
+        </small>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <div class="text-justify">
             {{ content }}
         </div>
     </div>
