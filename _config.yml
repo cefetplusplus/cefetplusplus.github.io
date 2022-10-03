@@ -27,9 +27,25 @@ github_url:  "https://github.com/cefetplusplus"
 include: 
   - .htaccess
 
+sass:
+  sass_dir: assets/stylesheets
+
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-node-module
+
+node_modules:
+  assets:
+    js: assets/js
+    css: assets/css
+  copy:
+  - source: "@fortawesome/fontawesome-free/webfonts"
+    target: "assets/webfonts"
+  - source: "bootstrap-icons/font/fonts"
+    target: "assets/css/fonts"
+  - source: "academicons/fonts"
+    target: "assets/fonts"
 
 paginate: 10
 paginate_path: "/news/:num"
@@ -56,3 +72,6 @@ paginate_path: "/news/:num"
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - workflows/

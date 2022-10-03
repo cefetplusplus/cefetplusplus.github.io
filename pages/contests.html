@@ -18,7 +18,7 @@ permalink: /contests/
                 <h4 class="card-title mb-0">{{ contest.name }}</h4>
                 <small class="card-subtitle mb-2 text-muted">
                     <i class="bi bi-geo-alt me-1"></i> {{ contest.location }} 
-                    <i class="bi bi-calendar2-check ms-3 me-1"></i> {{ contest.date | date: '%d/%d/%Y' }}
+                    <i class="bi bi-calendar2-check ms-3 me-1"></i> {{ contest.date | date: '%d/%m/%Y' }}
                 </small>
                 {% for team in contest.teams %}
                 <p class="card-text mt-3 mb-1">

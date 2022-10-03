@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Participação confirmada na Maratona SBC de Programação"
+date:   2022-08-01
+categories: general
+headline: A equipe CEFET++ terá dois times na Maratona SBC de Programação 2022/2023
+---
+
+A Equipe CEFET++ terá dois times na Maratona SBC de Programação (edição 2022/2023). Os times são o Technomancers (Gabriel de Souza, Vitor e Yuri) e P versus NP (Gabriel Couto, Leonardo e Pedro). Os mesmos times que participaram da Maratona Mineira de Programação 2022.
+
+A Maratona SBC de Programação é dividida em duas fases. Na primeira fase, que ocorrerá no dia 8 de outubro de 2022 em diversas sedes espalhadas pelo país, as equipes disputarão uma vaga para a fase final. As equipes classificadas disputarão a Final Brasileira nos dias 16 a 18 de março de 2023, na cidade de Campo Grande (MS).
+
+A Maratona SBC de Programação é, também, parte da regional sul-americana para classificação nas finais mundiais do concurso de programação, o International Collegiate Programming Contest.

@@ -15,3 +15,21 @@
         - "Gabriel Couto Assis"
         - "Leonardo de Oliveira Campos"
         - "Pedro Henrique Rodrigues Pereira"
+
+- name: "Fase Zero da Maratona SBC de Programação"
+  date: "2022-09-24"
+  location: "Beecrowd (online)"
+  teams:
+    - name: "Technomancers"
+      prizes:
+        - "Top 100 (78ª posição de 340 equipes)"
+      students:
+        - "Gabriel de Souza Rosa"
+        - "Yuri Dimitre Dias de Faria"
+        - "Vitor Martins Soares"
+    - name: "P versus NP"
+      prizes:
+      students:
+        - "Gabriel Couto Assis"
+        - "Leonardo de Oliveira Campos"
+        - "Pedro Henrique Rodrigues Pereira"

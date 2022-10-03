@@ -3,7 +3,7 @@ layout: post
 title:  "Credenciamento da equipe junto ao CEFET-MG"
 date:   2022-07-26
 categories: general
-headline: A equipe CEFET++ é credenciada como uma equipe oficial do CEFET-MG
+headline: A equipe CEFET++ é credenciada como uma equipe oficial do CEFET-MG.
 ---
 
-No dia 26 de julho de 2022 foi publicada a portaria DEDC nº 162/2022 que aprova o credenciamento da equipe de competição CEFET++ sob a coordenação dos Prof. André L. Maravilha e Willyan Michel.
+No dia 26 de julho de 2022 foi publicada a portaria DEDC nº 162/2022 aprovando o credenciamento da equipe de competição CEFET++ sob a coordenação dos Prof. André L. Maravilha e Willyan Michel.

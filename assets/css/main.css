@@ -1,0 +1,137 @@
+/* **************************************************************************
+ * Google fonts
+ * ************************************************************************** */
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* **************************************************************************
+* General
+* ************************************************************************** */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    /*color: #555;*/
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+
+/* **************************************************************************
+* Logo
+* ************************************************************************** */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo-text-primary {
+    font-weight: 300;
+}
+
+.logo-text-secondary {
+    font-weight: 200;
+    font-size: small;
+}
+
+
+/* **************************************************************************
+* Third-pary logo
+* ************************************************************************** */
+
+.organization-logo {
+    object-fit: scale-down;
+    object-position: center;
+    width: 158px;
+    max-width: 158px;
+    max-height: 158px;
+}
+
+
+/* **************************************************************************
+* Profile pictures
+* ************************************************************************** */
+
+.team-member p {
+    font-size: small;
+}
+
+.team-member img {
+    object-fit: cover;
+    object-position: center;
+    width: 158px;
+    max-width: 158px;
+    height: 158px;
+    max-height: 158px;
+}
+
+
+/* **************************************************************************
+* Map
+* ************************************************************************** */
+
+#map {
+    width: 100%;
+    aspect-ratio: 2/1;
+}
+
+
+/* **************************************************************************
+* Calendar
+* ************************************************************************** */
+
+#calendar {
+    width: 100%;
+    aspect-ratio: 4/3;
+    border-width: 0px;
+}
+
+
+/* **************************************************************************
+* Banner
+* ************************************************************************** */
+
+.banner {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1/1;
+    max-height: 400px;
+}
+
+.banner-bg {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    padding: 0px;
+    margin: 0px;
+    z-index: 0;
+    border: none;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(3px);
+}
+
+.banner-fg {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.35);
+    object-fit: contain;
+    object-position: center;
+}

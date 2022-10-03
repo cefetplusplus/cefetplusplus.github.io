@@ -6,24 +6,36 @@ permalink: /
 
 <div class="row">
 
-    <div class="col-12 col-lg-8 h-100">
-        <div class="home-banner text-center mb-4">
-            <img class="img-fluid mb-3 w-100 h-100 home-banner-bg" src="{{ '/assets/images/banner.jpg' | relative_url }}">
-            <img class="img-fluid mb-3 w-100 h-100 home-banner-img" src="{{ '/assets/images/banner.jpg' | relative_url }}">
+    <div class="col-12 col-lg-8">
+        
+        <div class="banner mb-3">
+            <img class="banner-bg"  src="{{ '/assets/images/banner.jpg' | relative_url }}">
+            <img class="banner-fg"  src="{{ '/assets/images/banner.jpg' | relative_url }}">
         </div>
+
         <h5>Bem vindo!</h5>
         <p class="text-justify">
-            O CEFET++ é a primeira equipe de competição de maratonas de programação do curso de Engenharia de
+            O CEFET++ é a primeira equipe de competição em maratonas de programação do curso de Engenharia de
             Computação do CEFET-MG (Campus Divinópolis). O objetivo desse projeto é dar suporte aos alunos que 
             compõem a equipe na preparação para as competições e no aprimoramento de suas habilidades com 
             técnicas de programação avançada e algoritmos eficientes, essenciais para a solução dos problemas 
             propostos nas competições.
         </p>
+
     </div>
 
-    <!-- Notícias -->
     <div class="col-12 col-lg-4">
-        {% include news.html %}
+
+        <!-- Notícias -->
+        <div class="mb-3">
+            {% include news.html %}
+        </div>
+
+        <!-- Agenda -->
+        <div class="mb-3">
+            {% include calendar.html %}
+        </div>
+    
     </div>
 
 </div>
