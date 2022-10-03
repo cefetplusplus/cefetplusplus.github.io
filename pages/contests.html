@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 layout: default
 permalink: /contests/
@@ -36,3 +37,43 @@ permalink: /contests/
     </div>
     {% endfor %}
 </div>
+=======
+---
+layout: default
+permalink: /contests/
+---
+
+
+<div class="row mb-4">
+    <div class="col-12">
+        <h2>Participação em Competições</h2>
+    </div>
+</div>
+<div class="row mb-4">
+    {% assign contests = site.data.contests | sort: "date" | reverse %}
+    {% for contest in contests %}
+    <div class="col-12 mb-3">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title mb-0">{{ contest.name }}</h4>
+                <small class="card-subtitle mb-2 text-muted">
+                    <i class="bi bi-geo-alt me-1"></i> {{ contest.location }} 
+                    <i class="bi bi-calendar2-check ms-3 me-1"></i> {{ contest.date | date: '%d/%m/%Y' }}
+                </small>
+                {% for team in contest.teams %}
+                <p class="card-text mt-3 mb-1">
+                    Equipe [CEFET++] {{ team.name }}<br />
+                    <small class="text-muted">
+                        <i class="bi bi-people-fill me-1"></i> {{ team.students | sort | array_to_sentence_string: "" }}<br />
+                        {% for prize in team.prizes %}
+                        <i class="bi bi-trophy-fill me-1"></i> {{ prize }}<br />
+                        {% endfor %}
+                    </small>
+                </p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+>>>>>>> 914e40f8367743e55e4ea1aa9f35a25f51671cbf
