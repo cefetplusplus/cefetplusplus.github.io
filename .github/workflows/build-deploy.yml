@@ -8,17 +8,29 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+
       - name: Checkout 🛎️
         uses: actions/checkout@v2
+
+      - name: Use Node.js 🔧
+        uses: actions/setup-node@v1
+        with: { node-version: '16.x' }
+
+      - name: Use Ruby 🔧
+        uses: actions/setup-ruby@v1
+        with: { ruby-version: '2.7.1' }
         
-      - name: Install NPM dependencies 🔧
+      - name: Setup dependencies 🔧
         run: |
           npm install
+          bundle config set path vendor/bundle
+          bundle install --jobs 4 --retry 3
 
       - name: Build  🔧
-        uses: actions/jekyll-build-pages@v1
+        run: |
+          bundle exec jekyll build
 
-      - name: Deploy 🚀
+      - name: Deploy to gh-pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
