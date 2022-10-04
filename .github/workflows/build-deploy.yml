@@ -15,7 +15,7 @@ jobs:
           npm install
 
       - name: Build 🚀
-        uses: actions/jekyll-build-page@1.0.5
+        uses: actions/jekyll-build-pages@1.0.5
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.7
