@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,7 +15,7 @@ jobs:
         run: |
           npm install
 
-      - name: Build 🚀
+      - name: Build  🔧
         uses: actions/jekyll-build-pages@v1
 
       - name: Deploy 🚀
