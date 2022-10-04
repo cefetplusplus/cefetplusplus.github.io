@@ -17,8 +17,8 @@ jobs:
         with: { node-version: '16.x' }
 
       - name: Use Ruby 🔧
-        uses: actions/setup-ruby@v1
-        with: { ruby-version: '2.7.1' }
+        uses: ruby/setup-ruby@v1
+        with: { ruby-version: '2.7.6' }
         
       - name: Setup dependencies 🔧
         run: |
