@@ -1,0 +1,20 @@
+{
+    "name": "cefetplusplus.github.io",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "André L. Maravilha",
+    "license": "MIT",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.1.2",
+        "academicons": "^1.9.2",
+        "bootstrap": "^5.2.1",
+        "bootstrap-icons": "^1.9.1",
+        "jquery": "^3.6.0",
+        "jquery-parallax.js": "^1.5.0",
+        "sweet-scroll": "^4.0.0"
+    }
+}
