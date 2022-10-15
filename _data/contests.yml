@@ -33,3 +33,20 @@
         - "Gabriel Couto Assis"
         - "Leonardo de Oliveira Campos"
         - "Pedro Henrique Rodrigues Pereira"
+
+- name: "XVII Maratona SBC de Programação: Primeira Fase"
+  date: "2022-10-08"
+  location: "Belo Horizonte, MG, Brasil"
+  teams:
+    - name: "Technomancers"
+      prizes:
+      students:
+        - "Gabriel de Souza Rosa"
+        - "Yuri Dimitre Dias de Faria"
+        - "Vitor Martins Soares"
+    - name: "P versus NP"
+      prizes:
+      students:
+        - "Gabriel Couto Assis"
+        - "Leonardo de Oliveira Campos"
+        - "Pedro Henrique Rodrigues Pereira"

@@ -1,18 +1,16 @@
 ---
-layout: default
+layout: container
 ---
 
 
-<div class="row mb-4">
-    <div class="col-12">
+<div class="row rounded border shadow-sm mx-1 mb-4 p-2 pb-4 p-md-4 pb-md-5">
+    <div class="col-12 mb-3 border-bottom">
         <h2 class="mb-1">{{ page.title }}</h2>
         <small class="text-muted">
             <i class="bi bi-calendar2-check"></i> Publicado em {{ page.date | date: '%d/%m/%Y' }}
         </small>
     </div>
-</div>
-<div class="row">
-    <div class="col-12">
+    <div class="col-12 mt-3">
         <div class="text-justify">
             {{ content }}
         </div>

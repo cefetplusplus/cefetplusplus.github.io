@@ -1,13 +1,19 @@
-- name: André L. Maravilha
-  role: Coordenador
-  title: D.Sc. em Engenharia Elétrica
-  email: andre.maravilha@cefetmg.br
-  lattes: 9685472895445408
-  photo: andre-maravilha.jpg
+- name: 'André L. Maravilha'
+  title: 'D.Sc. em Engenharia Elétrica'
+  role: 'Coordenador'
+  email: 'andre.maravilha@cefetmg.br'
+  lattes: 'http://lattes.cnpq.br/9685472895445408'
+  linkedin: 'https://linkedin.com/in/andremaravilha'
+  github: 'https://github.com/andremaravilha'
+  codeforces: 
+  photo: 'andre-maravilha.jpg'
   
 - name: Willyan Michel Ferreira
-  role: Coordenador Adjunto
   title: M.Sc. em Ciência da Computação
+  role: Coordenador Adjunto
   email: willyanmichel@cefetmg.br
-  lattes: 5138025671163318
+  lattes: 'http://lattes.cnpq.br/5138025671163318'
+  linkedin: 'https://www.linkedin.com/in/willyan-michel-ferreira-00b560123/'
+  github: 
+  codeforces: 
   photo: willyan-ferreira.jpg

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: container
 permalink: /team/
 ---
 
@@ -8,29 +8,27 @@ permalink: /team/
 
 <div class="row mb-4">
     <div class="col-12">
-        <h2>Treinadores</h2>
+        <h2 class="border-bottom">Treinadores</h2>
     </div>
 </div>
-<div class="row mb-4">
+<div class="row mb-5">
     {% assign people = site.data.team_coaches %}
     {% for member in people %}
-    <div class="col-12 col-lg-6 mb-3">
-        <div class="card team-member">
-            <div class="row g-0">
-                <div class="col-auto p-2">
-                    <img class="img-thumbnail rounded-circle" src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}" alt="{{ member.name }}">
-                </div>
-                <div class="col">
-                    <div class="card-body">
-                        <h6 class="card-title">{{ member.name }}</h6>
-                        <h6 class="card-subtitle text-muted">{{ member.role }}</h6>
-                        <p class="card-text mt-3">
-                            <i class="bi bi-mortarboard-fill"></i> {{ member.title }} <br>
-                            <i class="bi bi-envelope-fill"></i> <a href="mailto:{{ member.email }}">{{ member.email }}</a> <br>
-                            <i class="bi bi-file-earmark-person-fill"></i> <a href="http://lattes.cnpq.br/{{ member.lattes }}">Currículo Lattes</a>
-                        </p>
-                    </div>
-                </div>
+    <div class="col-12 col-lg-6 mb-3 profile" style="margin-top: 60px;">
+        <div class="row m-0 p-0 rounded border shadow-sm">
+            <div class="col-12 m-0 p-0">
+                <img class="d-block img-thumbnail rounded-circle img-rise mx-auto" src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}" alt="{{ member.name }}">
+            </div>
+            <div class="col-12 ps-3 pe-3">
+                <h4 class="mt-2 mb-0 text-center">{{ member.name }}</h4>
+                <h6 class="mt-1 mb-3 text-center text-muted">{{ member.role }}</h6>
+                <hr class="my-2 mb-3">
+                <h4 class="text-center social">
+                    {% if member.lattes %}<a href="{{ member.lattes }}" class="mx-2"><span class="iconify-inline" data-icon="academicons:lattes"></span></a>{% endif %}
+                    {% if member.linkedin %}<a href="{{ member.linkedin }}" class="mx-2"><span class="iconify-inline" data-icon="akar-icons:linkedin-box-fill"></a>{% endif %}
+                    {% if member.github %}<a href="{{ member.github }}" class="mx-2"><span class="iconify-inline" data-icon="akar-icons:github-fill"></a>{% endif %}
+                    {% if member.codeforces %}<a href="{{ member.codeforces }}" class="mx-2"><span class="iconify-inline" data-icon="simple-icons:codeforces"></a>{% endif %}
+                </h4>
             </div>
         </div>
     </div>
@@ -42,27 +40,27 @@ permalink: /team/
 
 <div class="row mb-4">
     <div class="col-12">
-        <h2>Membros</h2>
+        <h2 class="border-bottom">Membros</h2>
     </div>
 </div>
-<div class="row mb-4">
+<div class="row mb-5">
     {% assign people = site.data.team_members | sort: "name" %}
     {% for member in people %}
-    <div class="col-12 col-lg-6 mb-3">
-        <div class="card team-member">
-            <div class="row g-0">
-                <div class="col-auto p-2">
-                    <img class="img-thumbnail rounded-circle" src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}" alt="{{ member.name }}">
-                </div>
-                <div class="col">
-                    <div class="card-body">
-                        <h6 class="card-title">{{ member.name }}</h6>
-                        <p class="card-text mt-3">
-                            <i class="bi bi-mortarboard-fill"></i> {{ member.course }} <br>
-                            <i class="ai ai-lattes"></i> <a href="http://lattes.cnpq.br/{{ member.lattes }}">Currículo Lattes</a>
-                        </p>
-                    </div>
-                </div>
+    <div class="col-12 col-lg-4 mb-3 profile" style="margin-top: 60px;">
+        <div class="row m-0 p-0 rounded border shadow-sm">
+            <div class="col-12 m-0 p-0">
+                <img class="d-block img-thumbnail rounded-circle img-rise mx-auto" src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}" alt="{{ member.name }}">
+            </div>
+            <div class="col-12 ps-3 pe-3">
+                <h4 class="mt-2 mb-0 text-center text-truncate">{{ member.name }}</h4>
+                <h6 class="mt-1 mb-3 text-center text-muted">{{ member.course }}</h6>
+                <hr class="my-2 mb-3">
+                <h4 class="text-center social">
+                    {% if member.lattes %}<a href="{{ member.lattes }}" class="mx-2"><span class="iconify-inline" data-icon="academicons:lattes"></span></a>{% endif %}
+                    {% if member.linkedin %}<a href="{{ member.linkedin }}" class="mx-2"><span class="iconify-inline" data-icon="akar-icons:linkedin-box-fill"></a>{% endif %}
+                    {% if member.github %}<a href="{{ member.github }}" class="mx-2"><span class="iconify-inline" data-icon="akar-icons:github-fill"></a>{% endif %}
+                    {% if member.codeforces %}<a href="{{ member.codeforces }}" class="mx-2"><span class="iconify-inline" data-icon="simple-icons:codeforces"></a>{% endif %}
+                </h4>
             </div>
         </div>
     </div>

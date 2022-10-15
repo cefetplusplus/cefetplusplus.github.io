@@ -1,21 +1,20 @@
-<div class="card bg-light">
-    <div class="card-body">
-        <h5 class="card-title">Últimas notícias</h5>
-        <ul class="list-group list-group-flush bg-light pb-3">
+<div class="row">
+    <div class="col-12">
+        <h4 class="border-bottom mb-4">
+            <i class="bi bi-newspaper"></i> Últimas notícias
+        </h4>
+        <ul class="list-group list-group-flush pb-3">
             {% for post in site.posts limit:5 %}
-            <li class="list-group-item bg-light px-0">
+            <li class="list-group-item px-0">
                 <div>{{ post.title }}</div>
-                <div>
+                <div class="small">
                     <span class="text-muted">
                         <i class="bi bi-calendar2-check"></i> {{ post.date | date: '%d/%m/%Y' }}
                     </span> - 
-                    <a href="{{post.url }}">saiba mais</a>
+                    <a class="text-undecorated" href="{{post.url }}">saiba mais</a>
                 </div>
             </li>
             {% endfor %}
         </ul>
-        <p class="text-end m-0 p-0">
-            <a href="{{ '/news' | relative_url }}">Ver todas as notícias...</a>
-        </p>
     </div>
 </div>

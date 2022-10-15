@@ -1,49 +1,95 @@
-- name: Vitor Martins Soares
-  course: Engenharia de Computação
-  lattes: 6558804866012863
-  photo: vitor-soares.jpg
+- name: 'Vitor Martins Soares'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/6558804866012863'
+  linkedin: 'https://www.linkedin.com/in/vitormartinssoares/'
+  github: 'https://github.com/VitorMartinsSoares'
+  codeforces: 'https://codeforces.com/profile/nidhogg23'
+  photo: 'vitor-soares.jpeg'
 
-- name: Gabriel de Souza Rosa
-  course: Engenharia de Computação
-  lattes: 7526897592664022
-  photo: gabriel-rosa.jpg
+- name: 'Gabriel de Souza Rosa'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/7526897592664022'
+  linkedin:
+  github:
+  codeforces:
+  photo: 'gabriel-rosa.jpg'
 
-- name: Leonardo de Oliveira Campos
-  course: Engenharia de Computação
-  lattes: 8368874338359966
-  photo: leonardo-campos.jpg
+- name: 'Leonardo de Oliveira Campos'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/8368874338359966'
+  linkedin:
+  github:
+  codeforces:
+  photo: 'leonardo-campos.jpg'
 
-- name: Yuri Dimitre Dias de Faria
-  course: Engenharia de Computação
-  lattes: 8235611145383394
-  photo: yuri-faria.jpg
+- name: 'Yuri Dimitre Dias de Faria'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/8235611145383394'
+  linkedin:
+  github:
+  codeforces:
+  photo: 'yuri-faria.jpg'
 
-- name: Pedro Henrique Rodrigues Pereira
-  course: Engenharia de Computação
-  lattes: 0182128544609602
-  photo: pedro-pereira.jpg
+- name: 'Pedro Henrique Rodrigues Pereira'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/0182128544609602'
+  linkedin:
+  github:
+  codeforces:
+  photo: 'pedro-pereira.jpg'
 
-- name: Gabriel Couto Assis
-  course: Engenharia de Computação
-  lattes: 4555794230183109
-  photo: gabriel-assis.jpg
+- name: 'Gabriel Couto Assis'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/4555794230183109'
+  linkedin: 'https://www.linkedin.com/in/gabriel-couto-582060200/'
+  github: 'https://github.com/Couto1411'
+  codeforces: 'https://codeforces.com/profile/Couto1411'
+  photo: 'gabriel-assis.jpeg'
 
-# - name: César Henrique Resende Soares
-#   course: Engenharia de Computação
-#   lattes: #
-#   photo: 
+- name: 'Vinicius Alves Pereira'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/4389687435116029'
+  linkedin: 'www.linkedin.com/in/vinicius-alves-pereira-913254236'
+  github: 'https://github.com/tinicius'
+  codeforces: 'https://codeforces.com/profile/Tynoco'
+  photo: 'vinicius-pereira.jpeg'
 
-# - name: Vinícius Alves Pereira
-#   course: Engenharia de Computação
-#   lattes: #
-#   photo: 
+- name: 'Emanuel Vieira Tavares'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/5471410668552718'
+  linkedin: 
+  github: 'https://github.com/em4nuelvt'
+  codeforces: 'https://codeforces.com/profile/emanuelvt'
+  photo: 'emanuel-tavares.jpg'
 
-# - name: Emanuel Vieira Tavares
-#   course: Engenharia de Computação
-#   lattes: #
-#   photo: 
+- name: 'Alex Raimundo de Oliveira'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/7505911414424315'
+  linkedin: 
+  github: 'https://github.com/AlexR02'
+  codeforces: 
+  photo: 'alex-oliveira.jpg'
 
-# - name: Thaissa Vitória Guimarães Daldegan de Sousa
-#   course: Engenharia de Computação
-#   lattes: #
-#   photo: 
+- name: 'Thaissa Vitória Guimarães Daldegan de Sousa'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/5563415144238087'
+  linkedin: 'https://www.linkedin.com/in/thaissa-vitoria-daldegan-6a84b9153'
+  github: 'https://github.com/thaissavitoria'
+  codeforces: 'https://codeforces.com/profile/thaissavitoria'
+  photo: 'thaissa-sousa.png'
+
+- name: 'César Henrique Resende Soares'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/0608314689309511'
+  linkedin: 
+  github: 'https://github.com/CesarHRS'
+  codeforces: 'https://codeforces.com/profile/CesarHRS'
+  photo: 'cesar-soares.jpeg'
+
+- name: 'Daniel Alves Sanches'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/3145248663958471'
+  linkedin: 'https://www.linkedin.com/in/daniel-alves-sanches-4a393586/'
+  github: 'https://github.com/danieldiv'
+  codeforces: 'https://codeforces.com/profile/danielsanx'
+  photo: 'daniel-sanches.jpg'

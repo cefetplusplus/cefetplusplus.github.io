@@ -12,9 +12,9 @@ Os times Technomancers (Gabriel de Souza, Vitor e Yuri) e P versus NP (Gabriel C
 
 <div class="row d-flex justify-content-evenly">
     <div class="col-12 col-md-4 text-align-center mt-3">
-        <img style="width: 100%; aspect-ratio: 1/1; object-fit: scale-down" src="{{ '/assets/images/posts/post-image-01.jpg' | relative_url }}">
+        <img style="width: 100%; aspect-ratio: 1/1; object-fit: scale-down;" src="{{ '/assets/images/posts/post-image-01.jpg' | relative_url }}">
     </div>
     <div class="col-12 col-md-4 text-align-center mt-3">
-        <img style="width: 100%; aspect-ratio: 1/1; object-fit: scale-down" src="{{ '/assets/images/posts/post-image-02.jpg' | relative_url }}">
+        <img style="width: 100%; aspect-ratio: 1/1; object-fit: scale-down;" src="{{ '/assets/images/posts/post-image-02.jpg' | relative_url }}">
     </div>
 </div>
