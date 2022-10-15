@@ -12,8 +12,6 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    /*color: #555;*/
-
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
@@ -42,33 +40,86 @@ body {
 
 
 /* **************************************************************************
-* Third-pary logo
+* Cover
 * ************************************************************************** */
 
-.organization-logo {
-    object-fit: scale-down;
-    object-position: center;
-    width: 158px;
-    max-width: 158px;
-    max-height: 158px;
+.cover {
+    min-height: 50vh;
+    background-color: rgb(52, 52, 52);
+    margin: 0px;
+}
+
+.cover a {
+    color: var(--bs-light);
+}
+
+.cover a:hover {
+    color: var(--bs-gray-400);
 }
 
 
 /* **************************************************************************
-* Profile pictures
+* Third-pary logo
 * ************************************************************************** */
 
-.team-member p {
-    font-size: small;
+@keyframes toColored {
+    0%   { filter: grayscale(1); }
+    100% { filter: grayscale(0); }
 }
 
-.team-member img {
+.organization-logo {
+    text-align: center;
+}
+
+.organization-logo a {
+    display: block;
+    margin: auto;
+    filter: grayscale(1);
+}
+
+.organization-logo a:hover {
+    animation-duration: 300ms;
+    animation-timing-function: linear;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-name: toColored;
+}
+
+.organization-logo img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: scale-down;
+    object-position: center;
+    max-width: 158px;
+    max-height: 158px;
+}
+
+
+
+/* **************************************************************************
+* Members' profile
+* ************************************************************************** */
+
+.profile img {
+    width: 158px;
+    height: 158px;
     object-fit: cover;
     object-position: center;
-    width: 158px;
-    max-width: 158px;
-    height: 158px;
-    max-height: 158px;
+}
+
+.profile .img-rise {
+    margin-top: -55px;
+}
+
+.profile .social a {
+    color: var(--bs-gray-800);
+}
+
+.profile .social a:hover {
+    color: var(--bs-gray-600);
 }
 
 
@@ -89,49 +140,4 @@ body {
 #calendar {
     width: 100%;
     aspect-ratio: 4/3;
-    border-width: 0px;
-}
-
-
-/* **************************************************************************
-* Banner
-* ************************************************************************** */
-
-.banner {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 1/1;
-    max-height: 400px;
-}
-
-.banner-bg {
-    display: inline-block;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    max-height: 100%;
-    padding: 0px;
-    margin: 0px;
-    z-index: 0;
-    border: none;
-    object-fit: cover;
-    object-position: center;
-    filter: blur(3px);
-}
-
-.banner-fg {
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    max-height: 100%;
-    padding: 0px;
-    margin: 0px;
-    z-index: 1;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.35);
-    object-fit: contain;
-    object-position: center;
 }
