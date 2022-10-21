@@ -4,7 +4,7 @@
   teams:
     - name: "Technomancers"
       prizes:
-        - "Melhor equipe estreante"
+        - "Melhor time estreante"
       students:
         - "Gabriel de Souza Rosa"
         - "Yuri Dimitre Dias de Faria"
@@ -22,13 +22,14 @@
   teams:
     - name: "Technomancers"
       prizes:
-        - "Top 100 (78ª posição de 340 equipes)"
+        - "78ª posição de 340 times (Top 100)"
       students:
         - "Gabriel de Souza Rosa"
         - "Yuri Dimitre Dias de Faria"
         - "Vitor Martins Soares"
     - name: "P versus NP"
       prizes:
+        - "133ª posição de 340 times"
       students:
         - "Gabriel Couto Assis"
         - "Leonardo de Oliveira Campos"
@@ -40,12 +41,16 @@
   teams:
     - name: "Technomancers"
       prizes:
+        - "Classificação (BR-MG-BH): 14ª de 31 times"
+        - "Classificação (BR): 228ª de 524 times"
       students:
         - "Gabriel de Souza Rosa"
         - "Yuri Dimitre Dias de Faria"
         - "Vitor Martins Soares"
     - name: "P versus NP"
       prizes:
+        - "Classificação (BR-MG-BH): 8ª de 31 times"
+        - "Classificação (BR): 171ª de 524 times"
       students:
         - "Gabriel Couto Assis"
         - "Leonardo de Oliveira Campos"

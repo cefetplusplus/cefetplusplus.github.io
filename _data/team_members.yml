@@ -9,9 +9,9 @@
 - name: 'Gabriel de Souza Rosa'
   course: 'Engenharia de Computação'
   lattes: 'http://lattes.cnpq.br/7526897592664022'
-  linkedin:
-  github:
-  codeforces:
+  linkedin: 'https://www.linkedin.com/in/dev-souza/'
+  github: 'https://github.com/Sr-Souza-dev'
+  codeforces: 'https://codeforces.com/profile/sr-souza-dev'
   photo: 'gabriel-rosa.jpg'
 
 - name: 'Leonardo de Oliveira Campos'
@@ -25,9 +25,9 @@
 - name: 'Yuri Dimitre Dias de Faria'
   course: 'Engenharia de Computação'
   lattes: 'http://lattes.cnpq.br/8235611145383394'
-  linkedin:
-  github:
-  codeforces:
+  linkedin: 'https://www.linkedin.com/in/yuridimitre'
+  github: 'https://github.com/Numb4r'
+  codeforces: 'https://codeforces.com/profile/Numb4r'
   photo: 'yuri-faria.jpg'
 
 - name: 'Pedro Henrique Rodrigues Pereira'
