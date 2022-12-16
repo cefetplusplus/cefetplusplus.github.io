@@ -8,16 +8,18 @@
 
 title: "CEFET++"
 
-author: "André L. Maravilha"
-email: "andre.maravilha@cefetmg.br"
+description:
+  en: "Competitive programming team from CEFET-MG (Divinópolis, Brazil)"
+  pt_BR: "Equipe de programação competitiva do CEFET-MG (Divinópolis, Brasil)"
 
-description: >- 
-  Site do CEFET++, equipe de competição em maratonas de programação do CEFET-MG (Campus Divinópolis).
-
-baseurl: ""
 url: "https://githubplusplus.orcslab.github.io/"
 
-github_url:  "https://github.com/cefetplusplus"
+github:
+  url: "https://github.com/cefetplusplus"
+
+author:
+  name: "André L. Maravilha"
+  email: "andre.maravilha@cefetmg.br"
 
 
 # -------------------------------------------------------------------------------
@@ -32,9 +34,22 @@ sass:
 
 plugins:
   - jekyll-feed
+  - jekyll-polyglot
   - jekyll-paginate
   - jekyll-node-module
 
+# jekyll-polyglot settings
+languages: ["pt_BR", "en"]
+default_lang: "pt_BR"
+exclude_from_localization: ["assets"]
+lang_from_path: true
+parallel_localization: false
+
+# jekyll-paginate settings
+paginate: 10
+paginate_path: "/news/:num"
+
+# jekyll-node-modules settings
 node_modules:
   assets:
     js: assets/js
@@ -46,9 +61,6 @@ node_modules:
     target: "assets/css/fonts"
   - source: "academicons/fonts"
     target: "assets/fonts"
-
-paginate: 10
-paginate_path: "/news/:num"
 
 
 # -------------------------------------------------------------------------------

@@ -1,0 +1,29 @@
+- url: /
+  title:
+    en: Home
+    pt_BR: Início
+
+- url: /about/
+  title:
+    en: Competitive Programming
+    pt_BR: Programação Competitiva
+
+- url: /objectives/
+  title:
+    en: Objectives
+    pt_BR: Objetivos
+
+- url: /team/
+  title:
+    en: Team
+    pt_BR: Equipe
+
+- url: /contests/
+  title:
+    en: Contests
+    pt_BR: Competições
+
+- url: /news/
+  title:
+    en: News
+    pt_BR: Notícias
