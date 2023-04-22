@@ -28,7 +28,7 @@
   linkedin: 'https://www.linkedin.com/in/yuridimitre'
   github: 'https://github.com/Numb4r'
   codeforces: 'https://codeforces.com/profile/Numb4r'
-  photo: 'yuri-faria.jpg'
+  photo: 'yuri-faria.png'
 
 - name: 'Pedro Henrique Rodrigues Pereira'
   course: 'Engenharia de Computação'
@@ -44,7 +44,7 @@
   linkedin: 'https://www.linkedin.com/in/gabriel-couto-582060200/'
   github: 'https://github.com/Couto1411'
   codeforces: 'https://codeforces.com/profile/Couto1411'
-  photo: 'gabriel-assis.jpeg'
+  photo: 'gabriel-assis.jpg'
 
 - name: 'Vinicius Alves Pereira'
   course: 'Engenharia de Computação'
@@ -52,7 +52,7 @@
   linkedin: 'www.linkedin.com/in/vinicius-alves-pereira-913254236'
   github: 'https://github.com/tinicius'
   codeforces: 'https://codeforces.com/profile/Tynoco'
-  photo: 'vinicius-pereira.jpeg'
+  photo: 'vinicius-pereira.jpg'
 
 - name: 'Emanuel Vieira Tavares'
   course: 'Engenharia de Computação'
@@ -84,7 +84,7 @@
   linkedin: 
   github: 'https://github.com/CesarHRS'
   codeforces: 'https://codeforces.com/profile/CesarHRS'
-  photo: 'cesar-soares.jpeg'
+  photo: 'cesar-soares.jpg'
 
 - name: 'Daniel Alves Sanches'
   course: 'Engenharia de Computação'

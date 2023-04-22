@@ -1,6 +1,8 @@
 - name: "IX Maratona Mineira de Programação"
   date: "2022-05-28"
-  location: "Timóteo, MG, Brasil"
+  location:
+    pt_BR: "Timóteo, MG, Brasil"
+    en: "Timóteo, MG, Brazil"
   teams:
     - name: "Technomancers"
       prizes:
@@ -18,7 +20,9 @@
 
 - name: "Fase Zero da Maratona SBC de Programação"
   date: "2022-09-24"
-  location: "Beecrowd (online)"
+  location:
+    pt_BR: "Beecrowd (online)"
+    en: "Beecrowd (online)"
   teams:
     - name: "Technomancers"
       prizes:
@@ -37,7 +41,9 @@
 
 - name: "XVII Maratona SBC de Programação: Primeira Fase"
   date: "2022-10-08"
-  location: "Belo Horizonte, MG, Brasil"
+  location:
+    pt_BR: "Belo Horizonte, MG, Brasil"
+    en: "Belo Horizonte, MG, Brazil"
   teams:
     - name: "Technomancers"
       prizes:

@@ -1,12 +1,13 @@
 ---
 layout: container
 permalink: /contests/
+lang: en
 ---
 
 
 <div class="row mb-4">
     <div class="col-12">
-        <h2 class="border-bottom">Participação em Competições</h2>
+        <h2 class="border-bottom">Participation in Events</h2>
     </div>
 </div>
 <div class="row mb-4">
@@ -17,12 +18,12 @@ permalink: /contests/
             <div class="card-body">
                 <h4 class="card-title mb-0">{{ contest.name }}</h4>
                 <small class="card-subtitle mb-2 text-muted">
-                    <i class="bi bi-geo-alt me-1"></i> {{ contest.location }} 
-                    <i class="bi bi-calendar2-check ms-3 me-1"></i> {{ contest.date | date: '%d/%m/%Y' }}
+                    <i class="bi bi-geo-alt me-1"></i> {{ contest.location[site.active_lang] }} 
+                    <i class="bi bi-calendar2-check ms-3 me-1"></i> {{ contest.date | date: '%m-%d-%Y' }}
                 </small>
                 {% for team in contest.teams %}
                 <p class="card-text mt-3 mb-1">
-                    Equipe [CEFET++] {{ team.name }}<br />
+                    [CEFET++] Team :: {{ team.name }}<br />
                     <small class="text-muted">
                         <i class="bi bi-people-fill me-1"></i> {{ team.students | sort | array_to_sentence_string: "" }}<br />
                         {% for prize in team.prizes %}
