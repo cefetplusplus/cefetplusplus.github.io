@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "X Maratona Mineira de Programação"
-date:   2022-10-08
+date:   2023-04-22
 categories: general
 headline: "A edição de 2023 da Maratona Mineira de Programação já está chegando!"
 ---
