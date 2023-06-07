@@ -61,3 +61,39 @@
         - "Gabriel Couto Assis"
         - "Leonardo de Oliveira Campos"
         - "Pedro Henrique Rodrigues Pereira"
+
+- name: "X Maratona Mineira de Programação"
+  date: "2023-05-27"
+  location:
+    pt_BR: "UFSJ (Campus Alto Paraopeba) - Ouro Branco, MG, Brasil"
+    en: "UFSJ (Campus Alto Paraopeba) - Ouro Branco, MG, Brazil"
+  teams:
+    - name: "Technomancers"
+      prizes:
+        - "Melhor time da Região Centro-Oeste de Minas"
+        - "Classificação geral: 16ª de 61 times"
+      students:
+        - "Gabriel de Souza Rosa"
+        - "Yuri Dimitre Dias de Faria"
+        - "Vitor Martins Soares"
+    - name: "P versus NP"
+      prizes:
+        - "Classificação geral: 31ª de 61 times"
+      students:
+        - "Gabriel Couto Assis"
+        - "Leonardo de Oliveira Campos"
+        - "Pedro Henrique Rodrigues Pereira"
+    - name: "#inclue<chatgpt>"
+      prizes:
+        - "Classificação geral: 41ª de 61 times"
+      students:
+        - "Alex Raimundo de Oliveira"
+        - "Daniel Alves Sanches"
+        - "Thaissa Vitória Guimarães Daldegan de Sousa"
+    - name: "goiaba++"
+      prizes:
+        - "Classificação (Café com Leite): 4ª de 9 times"
+      students:
+        - "César Henrique Resende Soares"
+        - "Emanuel Vieira Tavares"
+        - "Vinícius Alves Pereira"

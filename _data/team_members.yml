@@ -33,8 +33,8 @@
 - name: 'Pedro Henrique Rodrigues Pereira'
   course: 'Engenharia de Computação'
   lattes: 'http://lattes.cnpq.br/0182128544609602'
-  linkedin:
-  github:
+  linkedin: 'https://www.linkedin.com/in/pedro-rodrigues-pereira/'
+  github: 'https://github.com/pedro-rodrigues18'
   codeforces:
   photo: 'pedro-pereira.jpg'
 
@@ -81,7 +81,7 @@
 - name: 'César Henrique Resende Soares'
   course: 'Engenharia de Computação'
   lattes: 'http://lattes.cnpq.br/0608314689309511'
-  linkedin: 
+  linkedin: 'https://www.linkedin.com/in/césar-henrique-resende-soares-38b4b3277/'
   github: 'https://github.com/CesarHRS'
   codeforces: 'https://codeforces.com/profile/CesarHRS'
   photo: 'cesar-soares.jpg'
