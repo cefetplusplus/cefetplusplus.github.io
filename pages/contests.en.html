@@ -23,9 +23,12 @@ lang: en
                 </small>
                 {% for team in contest.teams %}
                 <p class="card-text mt-3 mb-1">
-                    [CEFET++] Team :: {{ team.name }}<br />
+                    Equipe [CEFET++] :: {{ team.name }}<br />
                     <small class="text-muted">
                         <i class="bi bi-people-fill me-1"></i> {{ team.students | sort | array_to_sentence_string: "" }}<br />
+                        {% for rank in team.rank %}
+                        <i class="bi bi-arrow-down-up me-1"></i> {{ rank }}<br />
+                        {% endfor %}
                         {% for prize in team.prizes %}
                         <i class="bi bi-trophy-fill me-1"></i> {{ prize }}<br />
                         {% endfor %}
