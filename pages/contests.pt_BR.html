@@ -26,11 +26,11 @@ lang: pt_BR
                     Equipe [CEFET++] :: {{ team.name }}<br />
                     <small class="text-muted">
                         <i class="bi bi-people-fill me-1"></i> {{ team.students | sort | array_to_sentence_string: "" }}<br />
-                        {% for rank in team.rank %}
-                        <i class="bi bi-arrow-down-up me-1"></i> {{ rank }}<br />
-                        {% endfor %}
                         {% for prize in team.prizes %}
                         <i class="bi bi-trophy-fill me-1"></i> {{ prize }}<br />
+                        {% endfor %}
+                        {% for rank in team.rank %}
+                        <i class="bi bi-arrow-down-up me-1"></i> {{ rank }}<br />
                         {% endfor %}
                     </small>
                 </p>
