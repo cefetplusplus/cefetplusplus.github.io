@@ -5,6 +5,8 @@
     en: "Timóteo, MG, Brazil"
   teams:
     - name: "Technomancers"
+      rank: 
+        - "26º de 51 times"
       prizes:
         - "Melhor time estreante"
       students:
@@ -12,6 +14,8 @@
         - "Yuri Dimitre Dias de Faria"
         - "Vitor Martins Soares"
     - name: "P versus NP"
+      rank: 
+        - "36º de 51 times"
       prizes:
       students:
         - "Gabriel Couto Assis"
@@ -25,15 +29,17 @@
     en: "Beecrowd (online)"
   teams:
     - name: "Technomancers"
+      rank: 
+        - "78º de 340 times (Top 100)"
       prizes:
-        - "78ª posição de 340 times (Top 100)"
       students:
         - "Gabriel de Souza Rosa"
         - "Yuri Dimitre Dias de Faria"
         - "Vitor Martins Soares"
     - name: "P versus NP"
+      rank: 
+        - "133º de 340 times"
       prizes:
-        - "133ª posição de 340 times"
       students:
         - "Gabriel Couto Assis"
         - "Leonardo de Oliveira Campos"
@@ -46,17 +52,19 @@
     en: "Belo Horizonte, MG, Brazil"
   teams:
     - name: "Technomancers"
+      rank: 
+        - "14º de 31 times (Sede BR-MG-BH)"
+        - "228º de 524 times (BR)"
       prizes:
-        - "Classificação (BR-MG-BH): 14ª de 31 times"
-        - "Classificação (BR): 228ª de 524 times"
       students:
         - "Gabriel de Souza Rosa"
         - "Yuri Dimitre Dias de Faria"
         - "Vitor Martins Soares"
     - name: "P versus NP"
+      rank: 
+        - "8º de 31 times (Sede BR-MG-BH)"
+        - "171º de 524 times (BR)"
       prizes:
-        - "Classificação (BR-MG-BH): 8ª de 31 times"
-        - "Classificação (BR): 171ª de 524 times"
       students:
         - "Gabriel Couto Assis"
         - "Leonardo de Oliveira Campos"
@@ -69,30 +77,34 @@
     en: "UFSJ (Campus Alto Paraopeba) - Ouro Branco, MG, Brazil"
   teams:
     - name: "Technomancers"
+      rank: 
+        - "16º de 61 times"
       prizes:
         - "Melhor time da Região Centro-Oeste de Minas"
-        - "Classificação geral: 16ª de 61 times"
       students:
         - "Gabriel de Souza Rosa"
         - "Yuri Dimitre Dias de Faria"
         - "Vitor Martins Soares"
     - name: "P versus NP"
+      rank: 
+        - "31º de 61 times"
       prizes:
-        - "Classificação geral: 31ª de 61 times"
       students:
         - "Gabriel Couto Assis"
         - "Leonardo de Oliveira Campos"
         - "Pedro Henrique Rodrigues Pereira"
     - name: "#include&lt;chatgpt&gt;"
+      rank: 
+        - "41º de 61 times"
       prizes:
-        - "Classificação geral: 41ª de 61 times"
       students:
         - "Alex Raimundo de Oliveira"
         - "Daniel Alves Sanches"
         - "Thaissa Vitória Guimarães Daldegan de Sousa"
     - name: "goiaba++"
+      rank: 
       prizes:
-        - "Classificação (Café com Leite): 4ª de 9 times"
+        - "4º de 9 times (Categoria Café com Leite)"
       students:
         - "César Henrique Resende Soares"
         - "Emanuel Vieira Tavares"
