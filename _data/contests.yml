@@ -83,7 +83,7 @@
         - "Gabriel Couto Assis"
         - "Leonardo de Oliveira Campos"
         - "Pedro Henrique Rodrigues Pereira"
-    - name: "#inclue<chatgpt>"
+    - name: "#include&lt;chatgpt&gt;"
       prizes:
         - "Classificação geral: 41ª de 61 times"
       students:
