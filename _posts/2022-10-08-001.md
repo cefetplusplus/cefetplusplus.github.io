@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Participação na Primeira Fase da Maratona SBC de Programação"
+date:   2022-10-08
+categories: general
+headline: A equipe do CEFET++ esteve presente na Primeira Fase da Maratona SBC de Programação e não se classificou para as finais por uma questão.
+---
+
+A Equipe CEFET++ marcou presença na Primeira Fase da Maratona SBC de Programação (edição 2022/2023) no dia 08 de outubro e não se classificou por pouco para as finais que ocorrerão entre os dias 16 e 18 de março de 2023 na cidade de Campo Grande/MS. Os times da Equipe CEFET++ que participaram foram: Technomancers (Gabriel de Souza, Vitor e Yuri) e P versus NP (Gabriel Couto, Leonardo e Pedro).
+
+Nessa primeira fase da competição, participaram 524 times de todo o Brasil. A primeira fase é realizada em diferentes sedes de forma simultânea. Os times da Equipe CEFET++ concorreram a partir da sede de Belo Horizonte, com o evento sendo realizado na PUC Minas (Campus Coração Eucarístico). A sede de Belo Horizonte teve 31 times participantes, e desses, as equipes que se classificaram para as finais foram "Humuhumunukunukuapua'a" da UFMG, "passa em 1ms?" da UFV (Campus Florestal) e "#include<confia>" do CEFET-MG (Campus II).
+
+O time "P versus NP" da Equipe CEFET++ ficou logo atrás do time "#include&lt;confia&gt;". Caso o time "P versus NP" tivessem resolvido mais uma questão antes do encerramento da competição, eles teriam se classificado no lugar do time "#include&lt;confia&gt;".
+
+
+<div class="row d-flex justify-content-evenly">
+    <div class="col-12 col-md-4 text-align-center mt-3 px-3">
+        <img class="w-100 ratio ratio-1x1" style="object-fit: scale-down;" src="{{ '/assets/images/posts/post-image-03.jpg' | relative_url }}">
+    </div>
+    <div class="col-12 col-md-4 text-align-center mt-3 px-3">
+        <img class="w-100 ratio ratio-1x1" style="object-fit: scale-down;" src="{{ '/assets/images/posts/post-image-04.jpg' | relative_url }}">
+    </div>
+    <div class="col-12 col-md-4 text-align-center mt-3 px-3">
+        <img class="w-100 ratio ratio-1x1" style="object-fit: scale-down;" src="{{ '/assets/images/posts/post-image-05.jpg' | relative_url }}">
+    </div>
+</div>
