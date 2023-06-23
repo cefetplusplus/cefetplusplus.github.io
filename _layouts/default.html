@@ -36,7 +36,7 @@
     <link rel="stylesheet" href="{{ 'academicons/css/academicons.min.css' | node_module_url }}" />
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
 
-    <title>{{ site.title }} :: {{ site.description[site.active_lang] }}</title>
+    <title>{{ site.title }} :: {{ page.title | default: site.description[site.active_lang] }}</title>
 </head>
 
 <body>
