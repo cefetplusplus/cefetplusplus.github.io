@@ -13,15 +13,23 @@ title: "Notícias"
     {% for post in paginator.posts %}
     <div class="col-12 mb-3">
         <div class="card">
-            <div class="card-body">
-                <h4 class="card-title mb-0">{{ post.title }}</h4>
-                <small class="card-subtitle mb-2 text-muted">
-                    <i class="bi bi-calendar2-check me-1"></i> Publicado em {{ post.date | date: '%d/%m/%Y' }}
-                </small>
-                <p class="card-text mt-3 mb-1">
-                    {{ post.headline }}
-                </p>
-                <a class="card-link" href="{{ post.url }}">Saiba mais...</a>
+            <div class="row g-0">
+                <div class="col-auto px-3 bg-light date rounded-start">
+                    <div class="pt-3" style="min-width: 50px;">
+                        <span class="date-month">{{ post.date | date: '%b' }}</span>
+                        <span class="date-day">{{ post.date | date: '%d' }}</span>
+                        <span class="date-year">{{ post.date | date: '%Y' }}</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-body">
+                        <h4 class="card-title mb-0">{{ post.title }}</h4>
+                        <p class="card-text mt-3 mb-1">
+                            {{ post.headline }}
+                        </p>
+                        <a class="small card-link" href="{{ post.url }}">Saiba mais...</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

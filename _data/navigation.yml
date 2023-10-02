@@ -21,9 +21,9 @@
 - url: /contests/
   title:
     en: Contests
-    pt_BR: Competições
+    pt_BR: Histórico
 
-- url: /news/
+- url: /sponsors/
   title:
-    en: News
-    pt_BR: Notícias
+    en: Sponsors
+    pt_BR: Parceiros

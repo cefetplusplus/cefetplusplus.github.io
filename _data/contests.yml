@@ -109,3 +109,42 @@
         - "César Henrique Resende Soares"
         - "Emanuel Vieira Tavares"
         - "Vinícius Alves Pereira"
+
+- name: "XVIII Maratona SBC de Programação: Primeira Fase"
+  date: "2023-09-02"
+  location:
+    pt_BR: "Belo Horizonte, MG, Brasil"
+    en: "Belo Horizonte, MG, Brazil"
+  teams:
+    - name: "Technomancers"
+      rank: 
+        - "191º de 726 times (BR)"
+      prizes:
+      students:
+        - "Gabriel de Souza Rosa"
+        - "Yuri Dimitre Dias de Faria"
+        - "Vitor Martins Soares"
+    - name: "Bonde do Maravilha"
+      rank: 
+        - "256º de 726 times (BR)"
+      prizes:
+      students:
+        - "César Henrique Resende Soares"
+        - "Emanuel Vieira Tavares"
+        - "Vinícius Alves Pereira"
+    - name: "++goiaba"
+      rank: 
+        - "271º de 726 times (BR)"
+      prizes:
+      students:
+        - "Gabriel Couto Assis"
+        - "Leonardo de Oliveira Campos"
+        - "Pedro Henrique Rodrigues Pereira"
+    - name: "QUEBREI O BOCA 2023"
+      rank: 
+        - "375º de 726 times (BR)"
+      prizes:
+      students:
+        - "Alex Raimundo de Oliveira"
+        - "Daniel Alves Sanches"
+        - "Thaissa Vitória Guimarães Daldegan de Sousa"

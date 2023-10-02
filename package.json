@@ -12,8 +12,8 @@
         "@fortawesome/fontawesome-free": "^6.1.2",
         "@iconify/iconify": "^3.0.0",
         "academicons": "^1.9.2",
-        "bootstrap": "^5.2.1",
-        "bootstrap-icons": "^1.9.1",
+        "bootstrap": "^5.3.2",
+        "bootstrap-icons": "^1.11.1",
         "jquery": "^3.6.0",
         "jquery-parallax.js": "^1.5.0",
         "sweet-scroll": "^4.0.0"
