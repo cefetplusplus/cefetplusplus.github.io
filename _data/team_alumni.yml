@@ -1,0 +1,50 @@
+- name: Willyan Michel Ferreira
+  title: M.Sc. em Ciência da Computação
+  role: Coordenador Adjunto
+  email: willyanmichel@cefetmg.br
+  lattes: 'http://lattes.cnpq.br/5138025671163318'
+  linkedin: 'https://www.linkedin.com/in/willyan-michel-ferreira-00b560123/'
+  github: 
+  codeforces: 
+  photo: willyan-ferreira.jpg
+
+- name: 'Vitor Martins Soares'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/6558804866012863'
+  linkedin: 'https://www.linkedin.com/in/vitormartinssoares/'
+  github: 'https://github.com/VitorMartinsSoares'
+  codeforces: 'https://codeforces.com/profile/nidhogg23'
+  photo: 'vitor-soares.jpg'
+
+- name: 'Gabriel de Souza Rosa'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/7526897592664022'
+  linkedin: 'https://www.linkedin.com/in/dev-souza/'
+  github: 'https://github.com/Sr-Souza-dev'
+  codeforces: 'https://codeforces.com/profile/sr-souza-dev'
+  photo: 'gabriel-rosa.jpg'
+
+- name: 'Leonardo de Oliveira Campos'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/8368874338359966'
+  linkedin: 'https://www.linkedin.com/in/leonardo-campos-60225720b/'
+  github: 'https://github.com/leonardo8787'
+  codeforces: 'https://codeforces.com/profile/leonardo_campos'
+  photo: 'leonardo-campos.jpg'
+
+- name: 'Yuri Dimitre Dias de Faria'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/8235611145383394'
+  linkedin: 'https://www.linkedin.com/in/yuridimitre'
+  github: 'https://github.com/Numb4r'
+  codeforces: 'https://codeforces.com/profile/Numb4r'
+  photo: 'yuri-faria.png'
+
+- name: 'Alex Raimundo de Oliveira'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/7505911414424315'
+  linkedin: 
+  github: 'https://github.com/AlexR02'
+  codeforces: 
+  photo: 'alex-oliveira.jpg'
+

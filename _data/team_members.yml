@@ -1,35 +1,3 @@
-- name: 'Vitor Martins Soares'
-  course: 'Engenharia de Computação'
-  lattes: 'http://lattes.cnpq.br/6558804866012863'
-  linkedin: 'https://www.linkedin.com/in/vitormartinssoares/'
-  github: 'https://github.com/VitorMartinsSoares'
-  codeforces: 'https://codeforces.com/profile/nidhogg23'
-  photo: 'vitor-soares.jpg'
-
-- name: 'Gabriel de Souza Rosa'
-  course: 'Engenharia de Computação'
-  lattes: 'http://lattes.cnpq.br/7526897592664022'
-  linkedin: 'https://www.linkedin.com/in/dev-souza/'
-  github: 'https://github.com/Sr-Souza-dev'
-  codeforces: 'https://codeforces.com/profile/sr-souza-dev'
-  photo: 'gabriel-rosa.jpg'
-
-- name: 'Leonardo de Oliveira Campos'
-  course: 'Engenharia de Computação'
-  lattes: 'http://lattes.cnpq.br/8368874338359966'
-  linkedin: 'https://www.linkedin.com/in/leonardo-campos-60225720b/'
-  github: 'https://github.com/leonardo8787'
-  codeforces: 'https://codeforces.com/profile/leonardo_campos'
-  photo: 'leonardo-campos.jpg'
-
-- name: 'Yuri Dimitre Dias de Faria'
-  course: 'Engenharia de Computação'
-  lattes: 'http://lattes.cnpq.br/8235611145383394'
-  linkedin: 'https://www.linkedin.com/in/yuridimitre'
-  github: 'https://github.com/Numb4r'
-  codeforces: 'https://codeforces.com/profile/Numb4r'
-  photo: 'yuri-faria.png'
-
 - name: 'Pedro Henrique Rodrigues Pereira'
   course: 'Engenharia de Computação'
   lattes: 'http://lattes.cnpq.br/0182128544609602'
@@ -49,7 +17,7 @@
 - name: 'Vinicius Alves Pereira'
   course: 'Engenharia de Computação'
   lattes: 'http://lattes.cnpq.br/4389687435116029'
-  linkedin: 'https://www.linkedin.com/in/vinicius-alves-pereira-913254236'
+  linkedin: 'https://www.linkedin.com/in/dev-vini-pereira'
   github: 'https://github.com/tinicius'
   codeforces: 'https://codeforces.com/profile/Tynoco'
   photo: 'vinicius-pereira.jpg'
@@ -61,14 +29,6 @@
   github: 'https://github.com/em4nuelvt'
   codeforces: 'https://codeforces.com/profile/emanuelvt'
   photo: 'emanuel-tavares.jpg'
-
-- name: 'Alex Raimundo de Oliveira'
-  course: 'Engenharia de Computação'
-  lattes: 'http://lattes.cnpq.br/7505911414424315'
-  linkedin: 
-  github: 'https://github.com/AlexR02'
-  codeforces: 
-  photo: 'alex-oliveira.jpg'
 
 - name: 'Thaissa Vitória Guimarães Daldegan de Sousa'
   course: 'Engenharia de Computação'
@@ -93,3 +53,67 @@
   github: 'https://github.com/danieldiv'
   codeforces: 'https://codeforces.com/profile/danielsanx'
   photo: 'daniel-sanches.jpg'
+
+- name: 'Anna Laura Moura Santana'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/7938611181908196'
+  linkedin: 'https://www.linkedin.com/in/anna-laura-614384205'
+  github: 'https://github.com/annalaurams'
+  codeforces: 'https://codeforces.com/profile/annalaurams'
+  photo: 'anna-santana.jpg'
+
+- name: 'Mariana Rodrigues Lamounier Melo'
+  course: 'Engenharia de Computação'
+  lattes: 'https://lattes.cnpq.br/6947024024950367'
+  linkedin: 'https://www.linkedin.com/in/mariana-rodrigues-lmelo'
+  github: 'https://github.com/MariRodriguess'
+  codeforces: 'https://codeforces.com/profile/marymelo27'
+  photo: 'mariana-melo.jpg'
+
+- name: 'Julia Rezende Gomes Rocha'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/1689196947965347'
+  linkedin: 'https://www.linkedin.com/in/julia-rezende-1732a3188'
+  github: 'https://github.com/juliarezende34'
+  codeforces: 'https://codeforces.com/profile/juliaRezende'
+  photo: 'julia-rocha.jpg'
+
+- name: 'Jullia Fernandes Felizardo'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/9084201981130983'
+  linkedin: 'https://www.linkedin.com/in/jullia-fernandes-a23a65162'
+  github: 'https://github.com/JulliaFernandes'
+  codeforces: 'https://codeforces.com/profile/JulliaFernandes'
+  photo: 'jullia-felizardo.jpg'
+
+- name: 'Anielly Gonçalves'
+  course: 'Engenharia de Computação'
+  lattes: 'hhttps://lattes.cnpq.br/6289230887713770'
+  linkedin: 'https://www.linkedin.com/in/anielly-gon%C3%A7alves-19b54a234/'
+  github: 'https://github.com/Anielly-g'
+  codeforces: 'https://codeforces.com/profile/Anielly_g'
+  photo: 'anielly-goncalves.jpg'
+
+- name: 'Letícia de Oliveira Silva'
+  course: 'Engenharia de Computação'
+  lattes: 'https://lattes.cnpq.br/9538924953814327'
+  linkedin: 'https://www.linkedin.com/in/letolsilva'
+  github: 'https://github.com/Letolsilva'
+  codeforces: 'https://codeforces.com/profile/letolsilva22'
+  photo: 'leticia-silva.jpg'
+
+- name: 'Felipe Werneck de Oliveira Mendes'
+  course: 'Engenharia de Computação'
+  lattes: 
+  linkedin: 
+  github: 
+  codeforces: 
+  photo: 
+
+- name: 'Lucas Lima de Oliveira'
+  course: 'Engenharia de Computação'
+  lattes: 
+  linkedin: 
+  github: 
+  codeforces: 
+  photo: 
