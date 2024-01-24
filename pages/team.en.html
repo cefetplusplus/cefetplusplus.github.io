@@ -68,3 +68,32 @@ title: "Team"
     </div>
     {% endfor %}
 </div>
+
+
+<!-- Former Members -->
+
+<div class="row mb-4">
+    <div class="col-12">
+        <h2 class="border-bottom">Former Members</h2>
+    </div>
+</div>
+<div class="row mb-5">
+    {% assign people = site.data.team_alumni | sort: "name" %}
+    {% for member in people %}
+    <div class="col-12 col-lg-3 mb-3 profile alumni" style="margin-top: 60px;">
+        <div class="row m-0 p-0 rounded border shadow-sm">
+            <div class="col-12 m-0 p-0">
+                <img class="d-block img-thumbnail rounded-circle img-rise mx-auto" src="{{ '/assets/images/team' | relative_url }}/{{ member.photo | default: 'avatar.jpg' }}" alt="{{ member.name }}">
+            </div>
+            <div class="col-12 ps-3 pe-3">
+                <h6 class="mt-2 mb-0 text-center text-truncate">{{ member.name }}</h6>
+                <h6 class="text-center social">
+                    {% if member.lattes %}<a href="{{ member.lattes }}" class="mx-2"><span class="iconify-inline" data-icon="academicons:lattes"></span></a>{% endif %}
+                    {% if member.linkedin %}<a href="{{ member.linkedin }}" class="mx-2"><span class="iconify-inline" data-icon="akar-icons:linkedin-box-fill"></a>{% endif %}
+                    {% if member.github %}<a href="{{ member.github }}" class="mx-2"><span class="iconify-inline" data-icon="akar-icons:github-fill"></a>{% endif %}
+                </h6>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

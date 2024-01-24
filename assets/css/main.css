@@ -162,6 +162,17 @@ body {
     margin-top: -55px;
 }
 
+.profile .alumni img {
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile .alumni img-rise {
+    margin-top: -33x;
+}
+
 .profile .social a {
     color: var(--bs-gray-800);
 }

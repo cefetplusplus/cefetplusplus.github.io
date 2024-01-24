@@ -104,16 +104,16 @@
 
 - name: 'Felipe Werneck de Oliveira Mendes'
   course: 'Engenharia de Computação'
-  lattes: 
-  linkedin: 
-  github: 
-  codeforces: 
-  photo: 
+  lattes: 'http://lattes.cnpq.br/2053927566072974'
+  linkedin: 'https://www.linkedin.com/in/felipe-werneck-93520a209/'
+  github: 'https://github.com/werneckspx'
+  codeforces: 'https://codeforces.com/profile/felipwom'
+  photo: 'felipe-mendes.jpg'
 
 - name: 'Lucas Lima de Oliveira'
   course: 'Engenharia de Computação'
-  lattes: 
-  linkedin: 
-  github: 
-  codeforces: 
-  photo: 
+  lattes: 'http://lattes.cnpq.br/3777379006242094'
+  linkedin: 'https://www.linkedin.com/in/lucas-lima-358599223'
+  github: 'https://github.com/oilucaslima'
+  codeforces: 'https://codeforces.com/profile/oilucaslima'
+  photo: 'lucas-oliveira.png'
