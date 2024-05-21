@@ -1,11 +1,3 @@
-- name: 'Pedro Henrique Rodrigues Pereira'
-  course: 'Engenharia de Computação'
-  lattes: 'http://lattes.cnpq.br/0182128544609602'
-  linkedin: 'https://www.linkedin.com/in/pedro-rodrigues-pereira/'
-  github: 'https://github.com/pedro-rodrigues18'
-  codeforces:
-  photo: 'pedro-pereira.jpg'
-
 - name: 'Gabriel Couto Assis'
   course: 'Engenharia de Computação'
   lattes: 'http://lattes.cnpq.br/4555794230183109'
@@ -117,3 +109,19 @@
   github: 'https://github.com/oilucaslima'
   codeforces: 'https://codeforces.com/profile/oilucaslima'
   photo: 'lucas-oliveira.png'
+
+- name: 'Leandro Sousa Costa'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/9943159210265798'
+  linkedin: 'https://www.linkedin.com/in/leandro-sousa-43a17730b'
+  github: 'https://github.com/LeannonS'
+  codeforces: 'https://codeforces.com/profile/Leannon'
+  photo: 'leandro-sousa.jpg'
+
+- name: 'José Marconi de Almeida Júnior'
+  course: 'Engenharia de Computação'
+  lattes: 'http://lattes.cnpq.br/2660a375830270733'
+  linkedin: 'https://www.linkedin.com/in/jmarconi-almeida/'
+  github: 'https://github.com/josemarconi'
+  codeforces: 'https://codeforces.com/profile/Junas'
+  photo: 'jose-marconi.png'

@@ -26,6 +26,12 @@ jobs:
           bundle config set path vendor/bundle
           bundle install --jobs 4 --retry 3
 
+      - name: Resize images for production 🔧
+        run: |
+          sudo apt-get install -y imagemagick
+          mogrify -resize 300 ./assets/images/team/*[.png,.jpg,.jpeg,.PNG,.JPG,.JPEG]
+          mogrify -resize 600 ./assets/images/posts/*[.png,.jpg,.jpeg,.PNG,.JPG,.JPEG]
+
       - name: Build  🔧
         run: |
           bundle exec jekyll build
